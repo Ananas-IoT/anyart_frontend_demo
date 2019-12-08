@@ -43,7 +43,7 @@
             </v-card-actions>
             <v-divider></v-divider>
             <v-card-text class="registration-redirect">
-                <h5 style="text-align: center">Already have an account? <a class="login-link mx-auto" href="#">Log in here!</a></h5>
+                <h5 style="text-align: center">Already have an account? <a class="login-link mx-auto" href="http://localhost:8080/login">Log in here!</a></h5>
             </v-card-text>
         </v-card>
 

@@ -26,7 +26,7 @@
             </v-card-actions>
             <v-divider></v-divider>
             <v-card-text class="registration-redirect">
-                <h5 style="text-align: center">Don't have an account? <a href="" class="registration-link mx-auto">Register one here!</a></h5>
+                <h5 style="text-align: center">Don't have an account? <a href="http://localhost:8080/registration" class="registration-link mx-auto">Register one here!</a></h5>
             </v-card-text>
 
         </v-card>
