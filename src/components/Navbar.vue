@@ -73,7 +73,7 @@
             </v-app-bar>
             <v-footer app clipped class="grey darken-3" dark >
                 <v-spacer></v-spacer>
-                <span>&copy; 2019</span>
+                <span>Made with ❤ in 2019</span>
             </v-footer>
         </nav>
     </div>
