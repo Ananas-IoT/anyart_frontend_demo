@@ -1,7 +1,7 @@
 <template>
     <div>
         <nav>
-            <v-navigation-drawer v-model="drawer" app clipped class="grey darken-3" dark >
+            <v-navigation-drawer v-model="drawer" app clipped class="grey darken-3" dark>
                 <v-list dense>
                     <v-list-item>
                         <v-list-item-action>
@@ -12,7 +12,7 @@
                     </v-list-item>
                 </v-list>
             </v-navigation-drawer>
-            <v-app-bar app clipped-left v-toolbar-side-icon class="grey darken-3" dark>
+            <v-app-bar app clipped-left class="grey darken-3" dark style="padding: 0; margin: 0">
                 <v-app-bar-nav-icon @click.stop="drawer = !drawer" class="orange--text"></v-app-bar-nav-icon>
                 <v-toolbar-title class="text-uppercase orange--text">
                     <span>Any</span>
@@ -29,7 +29,7 @@
                 </v-btn>
             </v-app-bar>
         </nav>
-        <v-footer app class="grey darken-3" dark >
+        <v-footer app class="grey darken-3 orange--text" dark>
             <span>&copy; 2019</span>
         </v-footer>
     </div>
@@ -38,9 +38,7 @@
 <script>
     export default {
         name: "Navbar",
-        components: {
-
-        },
+        components: {},
         data() {
             return {
                 drawer: false,
