@@ -1,7 +1,7 @@
 <template>
     <div>
         <nav>
-            <v-navigation-drawer v-model="drawer" app clipped class="grey darken-3" dark >
+            <v-navigation-drawer v-model="drawer" app clipped class="grey darken-3" dark>
                 <v-list dense>
                     <v-list-item>
                         <v-list-item-action>
@@ -12,7 +12,7 @@
                     </v-list-item>
                 </v-list>
             </v-navigation-drawer>
-            <v-app-bar app clipped-left v-toolbar-side-icon class="grey darken-3" dark>
+            <v-app-bar app clipped-left class="grey darken-3" dark style="padding: 0; margin: 0">
                 <v-app-bar-nav-icon @click.stop="drawer = !drawer" class="orange--text"></v-app-bar-nav-icon>
                 <v-toolbar-title class="text-uppercase orange--text">
                     <a href="http://localhost:8080/" text class="orange--text"><span>Any</span>
@@ -36,8 +36,6 @@
 <script>
     export default {
         name: "Navbar",
-        components: {
-        },
         data() {
             return {
                 drawer: false,
