@@ -71,6 +71,10 @@
                     <v-icon right>account_circle</v-icon>
                 </v-btn>
             </v-app-bar>
+            <v-footer app clipped class="grey darken-3" dark >
+                <v-spacer></v-spacer>
+                <span>&copy; 2019</span>
+            </v-footer>
         </nav>
     </div>
 </template>
@@ -89,5 +93,8 @@
 </script>
 
 <style scoped>
+    .footer{
+
+    }
 
 </style>
