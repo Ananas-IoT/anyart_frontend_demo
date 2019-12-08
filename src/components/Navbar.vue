@@ -53,7 +53,7 @@
                     </v-list-item>
                 </v-list>
             </v-navigation-drawer>
-            <v-app-bar app clipped-left v-toolbar-side-icon class="grey darken-3" dark>
+            <v-app-bar app clipped-left class="grey darken-3" dark style="padding: 0; margin: 0">
                 <v-app-bar-nav-icon @click.stop="drawer = !drawer" class="orange--text"></v-app-bar-nav-icon>
                 <v-toolbar-title class="text-uppercase orange--text">
                     <a href="http://localhost:8080/" text class="orange--text"><span>Any</span>
