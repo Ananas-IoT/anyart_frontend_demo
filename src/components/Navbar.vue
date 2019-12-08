@@ -3,12 +3,53 @@
         <nav>
             <v-navigation-drawer v-model="drawer" app clipped class="grey darken-3" dark>
                 <v-list dense>
+                    <v-list-item-action>
+                    </v-list-item-action>
                     <v-list-item>
-                        <v-list-item-action>
-                        </v-list-item-action>
-                        <v-list-item-content>
-                            <v-list-item-title></v-list-item-title>
-                        </v-list-item-content>
+                        <h1 style="margin: 0 auto">Catherin Smith</h1>
+                    </v-list-item>
+                    <v-list-item-action>
+                    </v-list-item-action>
+                    <v-list-item>
+                        <v-avatar style="margin: 0 auto" size="186">
+                            <img src="@/assets/artist_portrait2.jpg">
+                        </v-avatar>
+                    </v-list-item>
+                    <v-list-item-action>
+                    </v-list-item-action>
+                    <v-list-item>
+                        <v-btn text large style="padding: 0">
+                            <v-icon>home</v-icon>
+                            <v-list-item-action>
+                            </v-list-item-action>
+                            My Profile
+                        </v-btn>
+                    </v-list-item>
+                    <v-list-item>
+                        <v-btn text large style="padding: 0">
+                            <v-icon size="20">folder</v-icon>
+                            <v-list-item-action>
+                            </v-list-item-action>
+                            Available orders
+                        </v-btn>
+                    </v-list-item>
+                    <v-list-item>
+                        <v-btn text large style="padding: 0">
+                            <v-icon size="20">folder</v-icon>
+                            <v-list-item-action>
+                            </v-list-item-action>
+                            Finished orders
+                        </v-btn>
+                    </v-list-item>
+                    <v-list-item-action>
+                    </v-list-item-action>
+                    <v-list-item>
+                        <v-btn text large style="padding: 0">
+                            <v-icon>settings</v-icon>
+                            <v-list-item-action>
+                            </v-list-item-action>
+                            Settings
+                        </v-btn>
                     </v-list-item>
                 </v-list>
             </v-navigation-drawer>
@@ -20,11 +61,12 @@
                     </a>
                 </v-toolbar-title>
                 <v-spacer></v-spacer>
-                <v-btn href="http://localhost:8080/login" depressed class="grey darken-3 orange--text ma-3">
+                <v-btn x-large href="http://localhost:8080/login" depressed class="grey darken-3 orange--text ma-3">
                     <span>Log In</span>
                     <v-icon right>fingerprint</v-icon>
                 </v-btn>
-                <v-btn href="http://localhost:8080/registration" depressed class="grey darken-3 orange--text ma-3">
+                <v-btn x-large href="http://localhost:8080/registration" depressed
+                       class="grey darken-3 orange--text ma-3">
                     <span>Sing In</span>
                     <v-icon right>account_circle</v-icon>
                 </v-btn>
@@ -36,6 +78,7 @@
 <script>
     export default {
         name: "Navbar",
+        components: {},
         data() {
             return {
                 drawer: false,
