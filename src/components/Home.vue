@@ -27,24 +27,24 @@
                         <h2 class="center-title mx-auto">ЦЕ ПЛАТФОРМА БЛА БЛА БЛА БЛА</h2>
                     </v-card-title>
                     <v-card-title class="center-title">
-                        <h3 class="center-title mx-auto">HOW IT WORKS?</h3>
                     </v-card-title>
                 </v-card>
+
             </v-container>
-            <v-row>
-                <v-col cols="2" style="text-align: center">
-                    <v-spacer></v-spacer>
+            <h1 class="center-title mx-auto">HOW IT WORKS?</h1>
+
+            <v-row style="margin: 5% auto 10% auto">
+                <v-col offset="2" style="text-align: center">
                 </v-col>
                 <v-col cols="6" style="text-align: center">
                     <img src="@/assets/tarasphoto.jpg" alt="image" style="width: 1000px">
                 </v-col>
-                <v-col cols="4" style="text-align: center">
-                    <v-spacer></v-spacer>
+                <v-col offset="2" style="text-align: center">
                 </v-col>
             </v-row>
             <h1 class="center-title mx-auto">ABOUT US</h1>
-            <h2 class="center-title mx-auto">We are happy to see you on our site! Our purpose is to make Lviv a better
-                place for all of us</h2>
+            <h3 class="center-title mx-auto">We are happy to see you on our site! Our purpose is to make Lviv a better
+                place for all of us</h3>
                 <v-row>
 
                     <v-col cols="4" style="text-align: center">
@@ -70,7 +70,6 @@
     </div>
 </template>
 
-5a388f ed4e76
 
 <script>
     export default {

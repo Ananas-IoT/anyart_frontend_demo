@@ -5,7 +5,6 @@
     <v-content>
     <router-view></router-view>
     </v-content>
-    <Home></Home>
   </v-app>
 
 </template>
@@ -14,12 +13,10 @@
 
 
   import Navbar from "./components/Navbar";
-  import Home from "./components/Home";
 
   export default {
     name: 'App',
     components: {
-      Home,
       Navbar
     },
 
