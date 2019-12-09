@@ -4,16 +4,16 @@
             <v-navigation-drawer v-model="drawer" app clipped class="grey darken-3" dark>
                 <v-list dense>
                     <v-list-item>
-                        <h1 style="margin: 0 auto">Victoria Foliush</h1>
+                        <h1 style="margin: 0 auto">Марія De Black</h1>
                     </v-list-item>
                     <v-list-item style="padding-bottom: 10px">
                         <v-avatar style="margin: 0 auto" size="186">
-                            <img src="@/assets/photo_2019-11-10_02-21-01.jpg">
+                            <img src="@/assets/images/portrait2.jpg">
                         </v-avatar>
                     </v-list-item>
                     <v-divider></v-divider>
                     <v-list-item style="margin: 10px 0;">
-                        <v-btn text large style="padding: 0; width: 100%">
+                        <v-btn href="http://localhost:8080/profile" text large style="padding: 0; width: 100%">
                             <v-icon>home</v-icon>
                             <v-spacer></v-spacer>
                             My Profile
@@ -64,10 +64,6 @@
                     <v-icon right>account_circle</v-icon>
                 </v-btn>
             </v-app-bar>
-            <v-footer app clipped class="grey darken-3" dark >
-                <v-spacer></v-spacer>
-                <span>Made with ❤ in 2019</span>
-            </v-footer>
         </nav>
     </div>
 </template>
@@ -86,8 +82,4 @@
 </script>
 
 <style scoped>
-    .footer{
-
-    }
-
 </style>
