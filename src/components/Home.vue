@@ -1,6 +1,5 @@
 <template>
-    <div style="padding: 0" class="grey darken-2 white--text">
-        <v-container fluid style="padding: 0; margin: 0">
+        <v-container fluid class="cst-background" style="padding: 0; margin: 0">
             <v-row class="images-box" style="padding: 0; margin: 0">
                 <v-col v-touch="top" cols="4" style="padding: 0">
                     <v-img alt="image"
@@ -29,19 +28,9 @@
                     <v-card-title class="center-title">
                     </v-card-title>
                 </v-card>
-
-            </v-container>
             <h1 class="center-title mx-auto">HOW IT WORKS?</h1>
 
-            <v-row style="margin: 5% auto 10% auto">
-                <v-col offset="2" style="text-align: center">
-                </v-col>
-                <v-col cols="6" style="text-align: center">
-                    <img src="@/assets/tarasphoto.jpg" alt="image" style="width: 1000px">
-                </v-col>
-                <v-col offset="2" style="text-align: center">
-                </v-col>
-            </v-row>
+
             <h1 class="center-title mx-auto">ABOUT US</h1>
             <h3 class="center-title mx-auto">We are happy to see you on our site! Our purpose is to make Lviv a better
                 place for all of us</h3>
@@ -64,10 +53,13 @@
                             <img src="@/assets/photo_2019-11-15_23-52-00.jpg" alt="John">
                         </v-avatar>
                     </v-col>
-
                 </v-row>
+            </v-container>
+            <v-footer clipped class="grey darken-3" dark >
+                <v-spacer></v-spacer>
+                <span>Made with ❤ in 2019</span>
+            </v-footer>
         </v-container>
-    </div>
 </template>
 
 
@@ -100,5 +92,10 @@
 
     .center-title {
         text-align: center;
+    }
+    .cst-background {
+        background-image: url("../assets/canva-photo-editor (1).png");
+        background-size: cover;
+        background-attachment: fixed;
     }
 </style>
