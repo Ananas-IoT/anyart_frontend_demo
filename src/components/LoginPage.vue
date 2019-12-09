@@ -1,6 +1,6 @@
 <template>
     <div>
-        <v-card width="50%" class="mx-auto mt-5" dark>
+        <v-card width="30%" height="40%" class="mx-auto mt-5" dark style="position: absolute; left: 35%; top: 25%">
             <v-card-title>
                 <h1 class="display-1 mx-auto">LOG IN</h1>
             </v-card-title>
