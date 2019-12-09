@@ -8,18 +8,19 @@
                         <v-list-item style="padding-bottom: 10px ">
                             <v-avatar style="margin: 0 auto" size="190" color="#212121">
                                 <v-avatar style="margin: 0 auto" size="186">
-                                    <v-img src="@/assets/photo_2019-11-10_02-21-01.jpg"/>
+                                    <v-img src="@/assets/images/portrait2.jpg"/>
                                 </v-avatar>
                             </v-avatar>
                         </v-list-item>
                         <v-list-item>
-                            <h1 class="white--text" style="margin: 0 auto">Victoria Foliush</h1>
+                            <h1 class="white--text" style="margin: 0 auto">Марія De Black</h1>
                         </v-list-item>
                     </v-container>
                     <v-divider></v-divider>
                     <v-list-item style="margin: 10px 0; padding-left: 5px">
-                        <v-btn text large class="white--text menu-button">
+                        <v-btn href="http://localhost:8080/profile" text large class="white--text menu-button">
                             <v-icon left>home</v-icon>
+
                             <v-spacer></v-spacer>
                             Мій профіль
                             <v-spacer></v-spacer>
@@ -89,6 +90,7 @@
 </script>
 
 <style scoped>
+
     .menu-button {
         margin: 5px;
         padding: 4px; width: 100%; font-size: 13px;
@@ -105,4 +107,5 @@
     /*    background: rgb(255, 162, 100);*/
     /*    background: linear-gradient(90deg, rgba(255, 162, 100, 1) 0%, rgba(255, 225, 127, 1) 100%);*/
     /*}*/
+
 </style>

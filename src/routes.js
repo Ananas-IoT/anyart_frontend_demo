@@ -4,6 +4,7 @@ import LoginPage from "./components/LoginPage";
 import Registration from "./components/Registration";
 import Home from "./components/Home";
 import AvailableOrders from "./components/AvailableOrders";
+import Profile from "./components/Profile";
 
 Vue.use(Router);
 
@@ -30,6 +31,11 @@ export default new Router({
             path: '/',
             name: 'home',
             component: Home
+        },
+        {
+            path: '/profile',
+            name: 'profile',
+            component: Profile
         },
     ]
 })

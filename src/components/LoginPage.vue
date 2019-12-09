@@ -1,6 +1,6 @@
 <template>
     <div>
-        <v-card width="50%" class="mx-auto mt-5" dark>
+        <v-card width="30%" height="40%" class="mx-auto mt-5" dark style="position: absolute; left: 35%; top: 25%">
             <v-card-title>
                 <h1 class="display-1 mx-auto">LOG IN</h1>
             </v-card-title>
@@ -21,7 +21,7 @@
             </v-card-text>
             <v-card-actions>
                 <v-spacer></v-spacer>
-                <v-btn color="orange" width="20%">LOG IN</v-btn>
+                <v-btn href="http://localhost:8080/" color="orange" width="20%">LOG IN</v-btn>
                 <v-spacer></v-spacer>
             </v-card-actions>
             <v-divider></v-divider>
