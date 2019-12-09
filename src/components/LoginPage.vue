@@ -21,7 +21,7 @@
             </v-card-text>
             <v-card-actions>
                 <v-spacer></v-spacer>
-                <v-btn color="orange" width="20%">LOG IN</v-btn>
+                <v-btn href="http://localhost:8080/" color="orange" width="20%">LOG IN</v-btn>
                 <v-spacer></v-spacer>
             </v-card-actions>
             <v-divider></v-divider>
