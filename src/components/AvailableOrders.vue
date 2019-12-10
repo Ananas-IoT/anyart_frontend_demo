@@ -2,7 +2,6 @@
 <template>
     <v-container fluid class="cst-background mx-auto text-center" style="padding: 0">
         <NavbarProfile></NavbarProfile>
-
         <v-row style="padding: 5px 20px">
             <v-col cols="3"></v-col>
             <v-col cols="6" style="padding: 5px">
@@ -18,6 +17,7 @@
             <v-col cols="3"></v-col>
         </v-row>
         <v-row style="padding: 5px 20px">
+            <v-col cols="1.5"></v-col>
             <v-col cols="3" style="padding: 5px">
                 <v-card dark min-width="200" max-width="450" class="mx-auto">
                     <v-list-item style="padding: 8px">
@@ -116,6 +116,10 @@
                     </v-card-actions>
                 </v-card>
             </v-col>
+            <v-col cols="1.5"></v-col>
+        </v-row>
+        <v-row style="padding: 5px 20px">
+            <v-col cols="1.5"></v-col>
             <v-col cols="3" style="padding: 5px">
                 <v-card dark min-width="200" max-width="450" class="mx-auto">
                     <v-list-item style="padding: 8px">
@@ -148,8 +152,6 @@
                     </v-card-actions>
                 </v-card>
             </v-col>
-        </v-row>
-        <v-row style="padding: 5px 20px">
             <v-col cols="3" style="padding: 5px">
                 <v-card dark min-width="200" max-width="450" class="mx-auto">
                     <v-list-item style="padding: 8px">
@@ -216,6 +218,10 @@
                     </v-card-actions>
                 </v-card>
             </v-col>
+            <v-col cols="1.5"></v-col>
+        </v-row>
+        <v-row style="padding: 5px 20px">
+            <v-col cols="1.5"></v-col>
             <v-col cols="3" style="padding: 5px">
                 <v-card dark min-width="200" max-width="450" class="mx-auto">
                     <v-list-item style="padding: 8px">
@@ -280,6 +286,39 @@
                     </v-card-actions>
                 </v-card>
             </v-col>
+            <v-col cols="3" style="padding: 5px">
+                <v-card dark min-width="200" max-width="450" class="mx-auto">
+                    <v-list-item style="padding: 8px">
+                        <v-avatar size="60">
+                            <v-img src="@/assets/rggrgr.jpg"></v-img>
+                        </v-avatar>
+                        <v-list-item-content>
+                            <v-list-item-title>Карнавальна маска</v-list-item-title>
+                            <v-list-item-subtitle>від Ірини Бібяк</v-list-item-subtitle>
+                            <v-list-item-subtitle>тиждень тому</v-list-item-subtitle>
+                        </v-list-item-content>
+                    </v-list-item>
+                    <v-img src="@/assets/venetsianskaya-maska-s-peryami-chernyi-velvet-1.jpg"></v-img>
+                    <v-card-text>
+                        Потрібно зробити карнавальну маску, схожу на цю. Хочу щоб пір'я були срібного кольору, а
+                        сама маска була золотою та прикрашена подібним камінням.
+                    </v-card-text>
+                    <v-card-actions>
+                        <v-btn text color="rgb(255, 162, 100)">ДЕТАЛЬНІШЕ</v-btn>
+                        <v-spacer></v-spacer>
+                        <v-btn icon>
+                            <v-icon>turned_in</v-icon>
+                        </v-btn>
+                        <v-btn icon>
+                            <v-icon>email</v-icon>
+                        </v-btn>
+                        <v-btn icon>
+                            <v-icon>mdi-share-variant</v-icon>
+                        </v-btn>
+                    </v-card-actions>
+                </v-card>
+            </v-col>
+            <v-col cols="1.5"></v-col>
         </v-row>
         <v-btn absolute fixed dark bottom right class="order-bottom gradient-background" style="height: 50px;">
             ЗРОБИТИ ЗАМОВЛЕННЯ
@@ -327,7 +366,7 @@
     }
 
     .cst-background {
-        background-image: url("../assets/canva-photo-editor (1).png");
+        background-image: url("../assets/main-background.png");
         background-size: cover;
         background-attachment: fixed;
     }
