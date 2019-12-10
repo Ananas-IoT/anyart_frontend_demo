@@ -84,6 +84,12 @@
     import CoinIcon from 'vue-material-design-icons/Coin.vue';
     export default {
         name: "NavbarProfile",
+        data() {
+            return {
+                drawer: false,
+
+            }
+        },
         components: {
             CoinIcon
         }
