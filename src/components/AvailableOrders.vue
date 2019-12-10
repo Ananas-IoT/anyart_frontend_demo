@@ -39,6 +39,9 @@
                     <v-card-actions>
                         <v-btn text color="rgb(255, 162, 100)">ДЕТАЛЬНІШЕ</v-btn>
                         <v-spacer></v-spacer>
+                        <v-btn icon v-on:click="confirm">
+                            <PlusBox></PlusBox>
+                        </v-btn>
                         <v-btn icon>
                             <v-icon>turned_in</v-icon>
                         </v-btn>
@@ -72,6 +75,9 @@
                     <v-card-actions>
                         <v-btn text color="rgb(255, 162, 100)">ДЕТАЛЬНІШЕ</v-btn>
                         <v-spacer></v-spacer>
+                        <v-btn icon v-on:click="confirm">
+                            <PlusBox></PlusBox>
+                        </v-btn>
                         <v-btn icon>
                             <v-icon>turned_in</v-icon>
                         </v-btn>
@@ -104,6 +110,9 @@
                     <v-card-actions>
                         <v-btn text color="rgb(255, 162, 100)">ДЕТАЛЬНІШЕ</v-btn>
                         <v-spacer></v-spacer>
+                        <v-btn icon v-on:click="confirm">
+                            <PlusBox></PlusBox>
+                        </v-btn>
                         <v-btn icon>
                             <v-icon>turned_in</v-icon>
                         </v-btn>
@@ -136,6 +145,9 @@
                     <v-card-actions>
                         <v-btn text color="rgb(255, 162, 100)">ДЕТАЛЬНІШЕ</v-btn>
                         <v-spacer></v-spacer>
+                        <v-btn icon v-on:click="confirm">
+                            <PlusBox></PlusBox>
+                        </v-btn>
                         <v-btn icon>
                             <v-icon>turned_in</v-icon>
                         </v-btn>
@@ -170,6 +182,9 @@
                     <v-card-actions>
                         <v-btn text color="rgb(255, 162, 100)">ДЕТАЛЬНІШЕ</v-btn>
                         <v-spacer></v-spacer>
+                        <v-btn icon v-on:click="confirm">
+                            <PlusBox></PlusBox>
+                        </v-btn>
                         <v-btn icon>
                             <v-icon>turned_in</v-icon>
                         </v-btn>
@@ -204,6 +219,9 @@
                     <v-card-actions>
                         <v-btn text color="rgb(255, 162, 100)">ДЕТАЛЬНІШЕ</v-btn>
                         <v-spacer></v-spacer>
+                        <v-btn icon v-on:click="confirm">
+                            <PlusBox></PlusBox>
+                        </v-btn>
                         <v-btn icon>
                             <v-icon>turned_in</v-icon>
                         </v-btn>
@@ -236,6 +254,9 @@
                     <v-card-actions>
                         <v-btn text color="rgb(255, 162, 100)">ДЕТАЛЬНІШЕ</v-btn>
                         <v-spacer></v-spacer>
+                        <v-btn icon v-on:click="confirm">
+                            <PlusBox></PlusBox>
+                        </v-btn>
                         <v-btn icon>
                             <v-icon>turned_in</v-icon>
                         </v-btn>
@@ -268,6 +289,9 @@
                     <v-card-actions>
                         <v-btn text color="rgb(255, 162, 100)">ДЕТАЛЬНІШЕ</v-btn>
                         <v-spacer></v-spacer>
+                        <v-btn icon  v-on:click="confirm">
+                            <PlusBox></PlusBox>
+                        </v-btn>
                         <v-btn icon>
                             <v-icon>turned_in</v-icon>
                         </v-btn>
@@ -309,12 +333,21 @@
 
 <script>
     import NavbarProfile from "./NavbarProfile";
+    import PlusBox from 'vue-material-design-icons/PlusBox.vue';
 
     export default {
         name: "available-orders",
         components: {
-            NavbarProfile
-        }
+            NavbarProfile,
+            PlusBox
+        },
+        methods:{
+            confirm: function () {
+               return this.$confirm(" ","Ви впевнені, що хочете взяти замовлення?").then(() => {
+                  return this.$alert(" ", "Замовлення успішно прийняте", "success");
+               });
+            }
+        },
     }
 </script>
 
