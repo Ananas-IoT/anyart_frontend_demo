@@ -1,6 +1,8 @@
 `
 <template>
     <v-container fluid class="cst-background mx-auto text-center" style="padding: 0">
+        <NavbarProfile></NavbarProfile>
+
         <v-row style="padding: 5px 20px">
             <v-col cols="3"></v-col>
             <v-col cols="6" style="padding: 5px">
@@ -306,8 +308,13 @@
 </template>
 
 <script>
+    import NavbarProfile from "./NavbarProfile";
+
     export default {
-        name: "available-orders"
+        name: "available-orders",
+        components: {
+            NavbarProfile
+        }
     }
 </script>
 
