@@ -14,9 +14,7 @@
                     <menu-icon size="48"  />
                     </div>
                     <br>
-
                     <h4>Спеціалізація:</h4>
-                    <br>
                     <p>- Малюнки та Ілюстрації</p>
                     <p>- Поліграфічний дизайн</p>
                     <p>- Векторна графіка</p>
@@ -66,7 +64,10 @@
                 </v-card>
             </v-col>
         </v-row>
-
+        <v-footer clipped class="cst-footer darken-3" dark>
+            <v-spacer></v-spacer>
+            <span>Made with ❤ in 2019</span>
+        </v-footer>
     </div>
 </template>
 <script>
@@ -95,6 +96,12 @@
         /*background-color: black;*/
     }
 
+    .cst-footer {
+        background-image: url("../assets/YQ3DWT.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        height: 50px;
+    }
     i {
         text-align: center;
     }
