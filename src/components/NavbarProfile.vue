@@ -64,16 +64,12 @@
                 <v-spacer></v-spacer>
                 <v-btn x-large href="http://localhost:8080/registration" depressed
                        class="grey darken-3 white--text ma-3">
-                    <span>Підтримай нас (</span>
-                    <coin-icon></coin-icon>
-                    <span>)</span>
-
+                    <span>Підтримай нас </span>
+                    <v-icon right size="25">monetization_on</v-icon>
                 </v-btn>
                 <v-btn x-large href="http://localhost:8080/login" depressed class="grey darken-3 white--text ma-3">
-                    <span>Вийти (</span>
-                    <v-img src="@/assets/icons/account-arrow-right.png"></v-img>
-                    <span>)</span>
-
+                    <span>Вийти</span>
+                    <v-icon right size="25">exit_to_app</v-icon>
                 </v-btn>
             </v-app-bar>
         </nav>
@@ -81,7 +77,6 @@
 </template>
 
 <script>
-    import CoinIcon from 'vue-material-design-icons/Coin.vue';
     export default {
         name: "NavbarProfile",
         data() {
@@ -91,7 +86,6 @@
             }
         },
         components: {
-            CoinIcon
         }
     }
 </script>
