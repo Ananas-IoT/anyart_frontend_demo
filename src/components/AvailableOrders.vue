@@ -10,7 +10,7 @@
                         <v-card dark class=" mx-auto">
                             <v-list-item-content>
                                 <v-list-item-title class="headline text-uppercase">Замовлення, що чекають на свого
-                                    виконавця
+                                    виконавця <v-icon>search</v-icon>
                                 </v-list-item-title>
                             </v-list-item-content>
                         </v-card>
