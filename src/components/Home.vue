@@ -1,5 +1,4 @@
 <template>
-
     <v-container fluid class="cst-background" style="padding: 0; margin: 0">
         <v-row class="images-box" style="padding: 0; margin: 0">
             <v-col v-touch="top" cols="4" style="padding: 0">
@@ -137,6 +136,7 @@
             </v-container>
         </v-container>
         <v-footer clipped class="cst-footer darken-3" dark>
+
             <v-spacer></v-spacer>
             <span>Made with ❤ in 2019</span>
         </v-footer>
@@ -145,8 +145,10 @@
 
 
 <script>
+    import NavbarProfile from "./NavbarProfile";
     export default {
-        name: "Home"
+        name: "Home",
+        components: {NavbarProfile}
     }
 </script>
 
@@ -178,7 +180,7 @@
         font-size: 30px;
         position: absolute;
         z-index: 3;
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: rgba(239, 235, 233, 0.5);
         top: 500px;
         right: 50px;
         left: 50px;
