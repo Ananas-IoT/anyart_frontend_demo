@@ -94,7 +94,6 @@
 </script>
 
 <style scoped>
-    @import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
     #profile {
         background-color: white;
         height: 100%;
@@ -105,7 +104,6 @@
         background-image: url("../assets/main-background.png");
         background-size: cover;
         background-attachment: fixed;
-        font-family: 'Playfair Display', serif;
     }
 
     .cst-footer {
