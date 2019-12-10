@@ -1,11 +1,11 @@
 <template>
     <div id="back">
-        <NavbarProfile></NavbarProfile>
+        <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">        <NavbarProfile></NavbarProfile>
         <v-row>
             <v-col cols="3" style="padding: 0">
                 <div id="profile" style="position: fixed; margin: 0 5% 0 5%">
                     <br>
-                    <h3>Марія De Black</h3>
+                    <h3>Марія Крісті</h3>
                     <v-img style="margin: 3%" src="@/assets/images/artist.jpg"></v-img>
                     <div style="text-align: center">
                     <menu-icon fillColor="#ff9800" size="48" />
@@ -94,6 +94,7 @@
 </script>
 
 <style scoped>
+    @import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
     #profile {
         background-color: white;
         height: 100%;
@@ -104,6 +105,7 @@
         background-image: url("../assets/main-background.png");
         background-size: cover;
         background-attachment: fixed;
+        font-family: 'Playfair Display', serif;
     }
 
     .cst-footer {
