@@ -1,5 +1,5 @@
 <template>
-    <v-container fluid class="cst-background" style="padding: 0; margin: 0;">
+    <v-container fluid class="cst-background" style="padding: 0; margin: 0">
         <NavbarProfile></NavbarProfile>
         <v-row class="images-box" style="padding: 0; margin: 0">
             <v-col v-touch="top" cols="4" style="padding: 0">
@@ -16,7 +16,7 @@
         </v-row>
         <v-container class="article-background white--text">
             <v-row>
-                <v-card class="main-title mx-auto white--text" flat>
+                <v-card class="main-title mx-auto white--text" flat style="background-color: rgba(0, 0, 0, 0.5)">
                     <v-card-title class="mx-auto">
                         <h1 class="display-1 text-uppercase mx-auto pa-0">Розкрий свою креативність</h1>
                     </v-card-title>
