@@ -1,5 +1,6 @@
 <template>
     <div id="back">
+        <NavbarProfile></NavbarProfile>
         <v-row>
             <v-col cols="3" style="padding: 0">
                 <div id="profile" style="position: fixed; margin: 0 5% 0 5%">
@@ -20,6 +21,7 @@
                     <p>- Малюнки та Ілюстрації</p>
                     <p>- Поліграфічний дизайн</p>
                     <p>- Векторна графіка</p>
+                    <p>- Концептуальні фото</p>
                 </div>
             </v-col>
             <v-col cols="8" style="padding: 0 0 0 7%">
@@ -30,36 +32,43 @@
                         <v-row>
                             <v-col cols="5" style="margin: 5%; text-align: center; position: relative">
                                 <v-img src="@/assets/images/fortepiano.jpg"></v-img>
-                                <i>July, 2019</i>
+                                <i>"Му...", 2019</i>
                             </v-col>
                             <v-col cols="5" style="margin: 1%; text-align: center">
                                 <v-img src="@/assets/images/girl.jpg"></v-img>
-                                <i>July, 2019</i>
+                                <p>Художня фотопостановка. Дерево: ясен, товщина: 5 см.</p>
 
                             </v-col>
                             <v-col cols="4" style="margin: 2%; text-align: center">
                                 <v-img src="@/assets/images/golovaZHouseNaGolovi.jpg"></v-img>
-                                <i>July, 2019</i>
+                                <i>«Journey through the body», 2019</i>
                             </v-col>
                             <v-col cols="3" style="margin: 2%; text-align: center">
                                 <v-img src="@/assets/images/metal.jpg"></v-img>
-                                <i>July, 2018</i>
+                                <p>Абстракція. 2019</p>
 
                             </v-col>
                             <v-col cols="3" style="margin: 2%; text-align: center">
                                 <v-img src="@/assets/images/berlozka.jpg"></v-img>
-                                <i>Marocco July, 2018</i>
+                                <p>Marocco. Художня фотопостановка. (Серпень, 2017)</p>
 
                             </v-col>
                             <v-col cols="8" style="margin: 4%; text-align: center">
                                 <v-img src="@/assets/images/lviv.jpg"></v-img>
-                                <i>July, 2018</i>
+                                <i>Полотно, акрил</i>
 
                             </v-col>
-                            <v-col cols="4" style="margin: 4%; text-align: center">
-                                <v-img src="https://avatars.mds.yandex.net/get-pdb/1531580/4ab4eefd-cbfd-486c-bad8-e088ff1805ab/s1200"></v-img>
-                                <i>July, 2018</i>
-
+                            <v-col cols="5" style="margin: 4%; text-align: center">
+                                <v-img src="@/assets/images/skull.jpg"></v-img>
+                                <i>Полотно, акрил, папір, колаж</i>
+                            </v-col>
+                            <v-col cols="5" style="margin: 4%; text-align: center">
+                                <v-img src="@/assets/images/choven.jpg"></v-img>
+                                <i>Диптих, змішана техніка, акрил, олія </i>
+                            </v-col>
+                            <v-col cols="11" style="margin: 4%; text-align: center">
+                                <v-img src="@/assets/images/ARTELECT_Nonexistent landscape_2_40х50_2019-1200x1200.jpg"></v-img>
+                                <p>Архівний папір. Пігментний друк. (Липень 2019)</p>
                             </v-col>
                         </v-row>
                     </v-container>
@@ -71,11 +80,14 @@
 </template>
 <script>
     import MenuIcon from 'vue-material-design-icons/Star.vue';
+    import NavbarProfile from "./NavbarProfile";
+
 
     export default {
         name: "Profile",
         components: {
             MenuIcon,
+            NavbarProfile
         }
     }
 </script>
@@ -91,8 +103,6 @@
         background-image: url("../assets/canva-photo-editor (1).png");
         background-size: cover;
         background-attachment: fixed;
-        /*background-color: rgb(255, 255, 251);*/
-        /*background-color: black;*/
     }
 
     i {
