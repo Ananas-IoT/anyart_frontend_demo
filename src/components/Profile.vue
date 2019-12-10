@@ -88,7 +88,9 @@
     }
 
     #back {
-        background-color: #ffefdb
+        background-image: url("../assets/canva-photo-editor (1).png");
+        background-size: cover;
+        background-attachment: fixed;
         /*background-color: rgb(255, 255, 251);*/
         /*background-color: black;*/
     }
