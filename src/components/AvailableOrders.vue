@@ -360,7 +360,7 @@
     }
 
     .cst-background {
-        background-image: url("../assets/canva-photo-editor (1).png");
+        background-image: url("../assets/main-background.png");
         background-size: cover;
         background-attachment: fixed;
     }
