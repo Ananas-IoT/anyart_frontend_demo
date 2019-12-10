@@ -1,5 +1,5 @@
 <template>
-    <v-container id="back" fluid class="cst-background" style="padding: 0; margin: 0;">
+    <v-container fluid class="cst-background" style="padding: 0; margin: 0;">
         <NavbarProfile></NavbarProfile>
         <v-row class="images-box" style="padding: 0; margin: 0">
             <v-col v-touch="top" cols="4" style="padding: 0">
@@ -154,9 +154,6 @@
 </script>
 
 <style scoped>
-    @import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
-    #back{
-        font-family: 'Playfair Display', serif;
     .just-a-line {
         width: 100%;
         height: 5px;
