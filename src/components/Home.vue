@@ -154,6 +154,9 @@
 </script>
 
 <style scoped>
+    @import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+    #back{
+        font-family: 'Playfair Display', serif;
     .just-a-line {
         width: 100%;
         height: 5px;

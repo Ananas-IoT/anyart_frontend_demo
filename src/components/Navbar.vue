@@ -13,7 +13,7 @@
                             </v-avatar>
                         </v-list-item>
                         <v-list-item>
-                            <h1 class="white--text" style="margin: 0 auto">Марія De Black</h1>
+                            <h1 class="white--text" style="margin: 0 auto">Марія Крісті</h1>
                         </v-list-item>
                     </v-container>
                     <v-divider></v-divider>
